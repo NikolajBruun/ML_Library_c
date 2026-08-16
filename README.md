@@ -44,5 +44,19 @@ for hvert lag bliver gradienten af vægt og bias udregnet og akkumuleret i en ma
 
 
 
+HVAD KAN FORBEDRES:
+
+1) Lige nu er main demo relativ lang, jeg gad godt at have main mere kompakt, og forhåbenligt vil det medføre et mere brugervenligt UI
+2) hurtigere træning, evt med open_mp, det er ikke noget jeg har beskæftiget mig med overhovedet. Problemet er at hvert iteration i træningsloopet tilgår de samme matricer (gradienterne til vægtmatricerne og biasvektoren) at blot lave det yderste træningsloop om vil resultere i race condition.... nederen
+3) DOKUMENTATION!!!
+
+
+logreg er meget simpel og forståelig, god genopfriskning for teorien, mere interresant er den ikke. Dog er demoen meget sjov, med meget lidt træning score den rigtig fint på wisconsin breast cancer datasæt (acc 0.98) til klassificering om godartet/ondartet kraftknude, god læring at implementere gradient descent her inden backprop
+
+linreg er kedelig, demoen predicter huspriser, udfra boston housing dataset... dog har vejen til linreg været lang, det var den første ML model og krævede derfor at jeg byggede hele matrix biblioteket, linreg bruger analytiske løsning, og derfor har jeg også implementeret naiv-matrix invers (gauss-jordan pivot alt det der)
+
+
+
+
 
 
