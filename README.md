@@ -15,8 +15,8 @@ $$\frac{60,000}{100}=600$$
 updates) men her er accuracy omkring 0.9
 (det tager cirka samme tid som et game blitz chess)
 
-Datasættet mnist_train var akkurat for stort til at blive uploadet til github -> jeg prøver at linke til et sted man kan downloade det
-
+Datasættet mnist_train var akkurat for stort til at blive uploadet til github -> det kan downloades her https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+resten af dataen er der ellers, og nn-demo vil også kunne køres med funktionen test_train_split (eller hvad jeg nu præcist har kaldt den) på mnist_test
 
 nn.c er en rodet omgang...
 ideen er grundlæggende:
